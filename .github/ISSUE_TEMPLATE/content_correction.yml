@@ -1,0 +1,72 @@
+name: Medical content correction
+description: Report an error, or propose a change, in a question, answer, or explanation.
+title: "[Content]: "
+labels: ["content", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Medical content is maintained and reviewed by the project maintainer
+        before it is included in the released question bank. Please provide an
+        evidence source so the maintainer can verify it. Proposing a change here
+        is the way to request a content update — direct pull requests to the
+        generated question files are not accepted yet.
+
+        **Do not include patient-identifiable information or real clinical
+        records. Do not paste copyrighted guideline text, tables, or figures —
+        cite them instead.**
+  - type: input
+    id: question-id
+    attributes:
+      label: Question ID or topic
+      description: The question `id` (e.g. hbv-draft-001) if you have it, or the topic name.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is incorrect or could be improved?
+      description: Describe the problem in your own words. Do not paste verbatim guideline text.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested change
+      description: Your proposed wording, in original language (no copied text/tables/figures).
+    validations:
+      required: false
+  - type: input
+    id: guideline
+    attributes:
+      label: Source name, publisher/organization, and year/version
+      description: e.g. a named textbook chapter or an open educational resource, with its year
+    validations:
+      required: true
+  - type: input
+    id: locator
+    attributes:
+      label: Section / page / DOI / official URL
+      description: A specific locator so the source can be checked. Include at least one.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: This contains no patient-identifiable information or real clinical records.
+          required: true
+        - label: I have not pasted copyrighted text, tables, or figures; I have cited the source instead.
+          required: true
+        - label: I verified this against the cited source myself (not solely from an AI tool).
+          required: true
+        - label: I checked that this is not a duplicate of an existing question for the topic.
+          required: false
+  - type: textarea
+    id: coi
+    attributes:
+      label: Conflict of interest disclosure
+      description: Disclose any relevant conflicts of interest, or write "none".
+    validations:
+      required: false

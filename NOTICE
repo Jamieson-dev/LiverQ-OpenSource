@@ -1,0 +1,52 @@
+LiverQ (Open Source)
+Copyright 2026 Jamie Son
+
+This product includes software developed by Jamie Son (the "maintainer").
+
+================================================================================
+Licensing summary
+================================================================================
+
+- Software / source code:   Apache License 2.0  (see LICENSE)
+- Sample content:           CC BY 4.0           (see CONTENT_LICENSE.md)
+- Third-party references:   not licensed here   (see below)
+
+================================================================================
+Independence and non-affiliation
+================================================================================
+
+LiverQ is an independent educational project. It is NOT affiliated with,
+sponsored by, or endorsed by the American Association for the Study of Liver
+Diseases (AASLD) or any other guideline-issuing organization, medical society,
+publisher, or institution.
+
+================================================================================
+Scope of this repository
+================================================================================
+
+This repository is the open-source APPLICATION FRAMEWORK for LiverQ. The
+production educational content bank is NOT included. The questions included here
+are limited demonstration content, independently written from general clinical
+knowledge.
+
+================================================================================
+Statement of facts
+================================================================================
+
+- The sample questions are independently written; they do not quote or closely
+  paraphrase AASLD or any other guideline, and cite no page numbers, tables,
+  figures, or proprietary sections.
+- No guideline PDFs, tables, figures, or substantial verbatim passages are
+  distributed by this project.
+- Any organization names or titles that may appear (for example, in disclaimers)
+  are used only for identification and remain the property of their respective
+  owners.
+
+================================================================================
+Medical disclaimer
+================================================================================
+
+LiverQ is an educational study tool and is not intended for direct patient care,
+diagnosis, or treatment. The sample content is for demonstration only. Always
+consult primary sources and current clinical standards for patient-care
+decisions.

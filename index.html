@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1"
+    />
+    <meta name="theme-color" content="#FFF7EA" />
+    <meta
+      name="description"
+      content="Educational hepatology quiz practice (open-source application framework). Not medical advice."
+    />
+    <title>LiverQ | Hepatology Quiz Practice</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Social link preview (Open Graph + Twitter). No absolute production URLs
+         or preview images are shipped in this open-source framework. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LiverQ | Hepatology Quiz Practice" />
+    <meta
+      property="og:description"
+      content="Educational hepatology quiz practice (open-source application framework). Not medical advice."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="LiverQ | Hepatology Quiz Practice" />
+    <meta
+      name="twitter:description"
+      content="Educational hepatology quiz practice (open-source application framework). Not medical advice."
+    />
+
+    <!-- PWA: installable to the home screen / TWA foundation. Manifest +
+         icons + mobile meta only — no service worker, no offline caching
+         (avoids trapping stale content). -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="LiverQ" />
+
+    <!-- Local-only privacy posture: no third-party requests. Typography uses
+         the system font stack (see src/index.css) — no external fonts. -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
