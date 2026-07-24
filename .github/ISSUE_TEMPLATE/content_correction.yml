@@ -7,10 +7,10 @@ body:
     attributes:
       value: |
         Medical content is maintained and reviewed by the project maintainer
-        before it is included in the released question bank. Please provide an
+        before it is included in the demonstration question set. Please provide an
         evidence source so the maintainer can verify it. Proposing a change here
         is the way to request a content update — direct pull requests to the
-        generated question files are not accepted yet.
+        demonstration content files are not accepted yet.
 
         **Do not include patient-identifiable information or real clinical
         records. Do not paste copyrighted guideline text, tables, or figures —
@@ -19,7 +19,7 @@ body:
     id: question-id
     attributes:
       label: Question ID or topic
-      description: The question `id` (e.g. hbv-draft-001) if you have it, or the topic name.
+      description: The question `id` (e.g. demo-vh-2) if you have it, or the topic name.
     validations:
       required: true
   - type: textarea

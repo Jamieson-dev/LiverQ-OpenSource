@@ -25,6 +25,15 @@ All included questions are **limited demonstration content**: independently
 written from general clinical knowledge, using fictional scenarios only, with no
 patient information and no copied or closely paraphrased guideline wording.
 
+## Project status
+
+This public repository contains the reusable LiverQ application framework and a
+limited demonstration dataset. The production LiverQ application is maintained
+separately with a substantially larger private educational content library that
+is intentionally excluded from this repository. This public framework is actively
+maintained for open-source development, testing, accessibility, and community
+contribution.
+
 ## Problem it addresses
 
 Clinical guidelines are long and change often. LiverQ turns key teaching points
