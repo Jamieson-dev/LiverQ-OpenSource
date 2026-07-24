@@ -34,6 +34,14 @@ is intentionally excluded from this repository. This public framework is activel
 maintained for open-source development, testing, accessibility, and community
 contribution.
 
+## Screenshots
+
+Captured from the app running locally with only its included demonstration content.
+
+| Home and topic selection | Demonstration quiz and explanation |
+| :---: | :---: |
+| <img src="docs/screenshots/liverq-home.png" alt="LiverQ home screen showing the app title, the Hepatology Quiz Practice subtitle, and the number of demonstration topics and questions available" width="300"> | <img src="docs/screenshots/liverq-quiz.png" alt="A demonstration quiz question after an answer is selected, showing the correct or incorrect feedback and the educational explanation with a demonstration-content source label" width="300"> |
+
 ## Problem it addresses
 
 Clinical guidelines are long and change often. LiverQ turns key teaching points
